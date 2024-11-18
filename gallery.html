@@ -9,33 +9,38 @@
     <style>
         .gallery-img {
             width: 100%;
-            /* To ensure the image takes up the full width of the parent container */
-
             height: 250px;
-            /* To Set a uniform height */
-
-
             object-fit: cover;
-            /* To Ensure the image covers the container without distortion */
-
-
         }
     </style>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Muganzi Alexander</a>
-
+<body style="background-color: #f1f1f1;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Muganzi Alexander</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+                <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="container mt-5">
-        <h1 class="text-warning">Gallery</h1>
+        <h1 class="text-primary">Gallery</h1>
         <div class="row">
+            <!-- Image grid -->
             <div class="col-md-4 mb-3">
                 <img src=".\images&videos\Ben & Mzee Fam.jpg" class="img-fluid rounded gallery-img"
                     alt="Ben and Mzee Fam">
             </div>
+            <!-- Add more images as needed -->
             <div class="col-md-4 mb-3">
                 <img src=".\images&videos\At home.jpg" class="img-fluid rounded gallery-img" alt="In Ma Hostel room">
             </div>
